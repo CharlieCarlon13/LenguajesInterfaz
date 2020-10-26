@@ -12,5 +12,3 @@ cmp r4, # 5
 bne .L2
 pop { r4, pc }
 pop { r4, lr }
-bx lr
-pop { r4, pc }
