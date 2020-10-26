@@ -1,4 +1,4 @@
-```bash
+
 .data
 var1 : .byte 0b00110010
 .align
@@ -12,4 +12,3 @@ ldr r2, = var2 /* r2 <- & var2 */
 ldrsb r2, [ r2 ] /* r2 <- *r2 */
 add r0, r1, r2 /* r0 <- r1 + r2 */
 bx lr
-```
