@@ -377,7 +377,10 @@ las instrucciones están alineadas a direcciones múltiplo de 4 (en binario acab
 00), por lo que el rango real es de 64 Mb [−2^25 − 1, 2^25 − 1]
 En caso de necesitar un salto mayor recurrimos a la misma solución de la carga
 de inmediatos del mov, solo que el registro a cargar es el pc.
+
+
 ![](imagen/saltos.PNG)
+
 
 ## Estructuras de control de alto nivel
 Las estructuras for y while se pueden ejecutar un mínimo de 0 iteraciones (si
